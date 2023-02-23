@@ -9,6 +9,8 @@ const InstagramImg = ({ socialImg }) => {
         src={socialImg}
         alt='/'
         className='w-full h-full'
+        width={300}
+        height={200}
         layout='responsive'
       />
       {/* Overlay */}
