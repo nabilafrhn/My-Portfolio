@@ -81,13 +81,17 @@ function Card() {
                       : products
                   )
                   .map((item) => (
+                    // eslint-disable-next-line react/jsx-key
                     <div className="lg:w-4/12 md:w-6/12 xl:w-3/12 ">
-                      <Link href={`shop/${item.id}`} key={item.id}>
+                      <Link href={`shop/${item.id}`}>
                         <div className=" bg-white md:block flex flex-col justify-center items-center border m-5 p-5 rounded-[10px] border-solid border-[#a7a7a7] hover:transition-[0.4s] hover:shadow-[0_10px_40px_0_rgba(0,0,0,0.4)] hover:z-[3] hover:scale-110">
-                          <img
+                          <Image
+                            key={item.id}
                             src={item.gambar}
                             alt=""
-                            className="h-[200px] w-[200px] border mt-[5px] mb-5 rounded-[10px] mx-auto border-solid border-black"
+                            width={200}
+                            height={200}
+                            className="border mt-[5px] mb-5 rounded-[10px] mx-auto border-solid border-black"
                           />
                           <h3 className="card-name font-bold mb-3">
                             {item.nama}

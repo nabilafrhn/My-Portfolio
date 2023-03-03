@@ -2,7 +2,7 @@ export const stock = [
   {
     id: 1,
     nama: "Happy Clothes",
-    gambar: "/../product1.jpg",
+    gambar: "/product1.jpg",
     description: "white",
     category: "Hoodie",
     harga: 22000,
@@ -10,7 +10,7 @@ export const stock = [
   {
     id: 2,
     nama: "Good Clothes",
-    gambar: "/../product1.jpg",
+    gambar: "/product1.jpg",
     description: "black",
     category: "clothes",
     harga: 30000,
@@ -18,7 +18,7 @@ export const stock = [
   {
     id: 3,
     nama: "Hoodie",
-    gambar: "/../product1.jpg",
+    gambar: "/product1.jpg",
     description: "purple",
     category: "uniform",
     harga: 33000,
@@ -26,7 +26,7 @@ export const stock = [
   {
     id: 4,
     nama: "Happy Clothes",
-    gambar: "/../product1.jpg",
+    gambar: "/product1.jpg",
     description: "white",
     category: "Hoodie",
     harga: 22000,
@@ -34,7 +34,7 @@ export const stock = [
   {
     id: 5,
     nama: "Happy Clothes",
-    gambar: "/../product1.jpg",
+    gambar: "/product1.jpg",
     description: "white",
     category: "Hoodie",
     harga: 22000,
@@ -42,7 +42,7 @@ export const stock = [
   {
     id: 6,
     nama: "Happy Clothes",
-    gambar: "/../product1.jpg",
+    gambar: "/product1.jpg",
     description: "white",
     category: "Hoodie",
     harga: 22000,
@@ -50,7 +50,7 @@ export const stock = [
   {
     id: 7,
     nama: "Happy Clothes",
-    gambar: "/../product1.jpg",
+    gambar: "/product1.jpg",
     description: "white",
     category: "Hoodie",
     harga: 22000,
