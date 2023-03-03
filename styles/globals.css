@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Raleway", sans-serif;
+}
+
+.custom-img {
+  background-image: url("https://img.freepik.com/free-photo/neutral-abstract-texture-minimal-background_53876-98402.jpg?w=900&t=st=1677067167~exp=1677067767~hmac=441a2f3fe27d608e1d1abca8521f63e2a9bf0e0efdcb1ab64451f197b38342fd");
+}
