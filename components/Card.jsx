@@ -1,4 +1,4 @@
-import { stock } from "../stock";
+// import stock  from "../stock";
 // import './Card.css';
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
@@ -8,6 +8,8 @@ function Card() {
   const [keyword, setKeyword] = useState("");
   const [hasilFilter, setHasilfilter] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
+  const [stock, setStock] = useState([]);
+
   // const [search, setSearch] = useState('');
   // const desc = data.description;
   // console.log(desc);
@@ -31,6 +33,19 @@ function Card() {
       return filtered + " Products ";
     }
   }
+
+  useEffect(() => {
+    try{
+      const fetchData = async () => {
+        const response = await fetch("https://api.jsonbin.io/v3/b/640fbca9ebd26539d08e2e8e");
+        const data = await response.json();
+        setStock(data.record);
+      };
+      fetchData();
+    } catch (err){
+    console.log(err);
+  }
+  }, []);
 
   return (
     <>

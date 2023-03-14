@@ -1,4 +1,4 @@
-import { stock } from "../../../stock";
+import stock  from "../../../stock";
 import Swal from "sweetalert2";
 import React, { useEffect, useState, useRef } from "react";
 import { useRouter } from "next/router";

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "nama": "Happy Clothes",
+    "gambar": "/product1.jpg",
+    "description": "white",
+    "category": "Hoodie",
+    "harga": 22000
+  },
+  {
+    "id": 2,
+    "nama": "Good Clothes",
+    "gambar": "/product1.jpg",
+    "description": "black",
+    "category": "clothes",
+    "harga": 30000
+  },
+  {
+    "id": 3,
+    "nama": "Hoodie",
+    "gambar": "/product1.jpg",
+    "description": "purple",
+    "category": "uniform",
+    "harga": 33000
+  },
+  {
+    "id": 4,
+    "nama": "Happy Clothes",
+    "gambar": "/product1.jpg",
+    "description": "white",
+    "category": "Hoodie",
+    "harga": 22000
+  },
+  {
+    "id": 5,
+    "nama": "Happy Clothes",
+    "gambar": "/product1.jpg",
+    "description": "white",
+    "category": "Hoodie",
+    "harga": 22000
+  },
+  {
+    "id": 6,
+    "nama": "Happy Clothes",
+    "gambar": "/product1.jpg",
+    "description": "white",
+    "category": "Hoodie",
+    "harga": 22000
+  },
+  {
+    "id": 7,
+    "nama": "Happy Clothes",
+    "gambar": "/product1.jpg",
+    "description": "white",
+    "category": "Hoodie",
+    "harga": 22000
+  }
+]
