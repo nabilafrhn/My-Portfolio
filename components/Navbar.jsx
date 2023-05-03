@@ -32,7 +32,7 @@ const Navbar = () => {
       <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
         <Link href='/'>
           <h1 style={{ color: `${textColor}` }} className='font-bold text-4xl'>
-            Im Nabila
+            Alora
           </h1>
         </Link>
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
@@ -44,6 +44,9 @@ const Navbar = () => {
           </li>
           <li className='p-4'>
             <Link href='/contact'>Contact</Link>
+          </li>
+          <li className='p-4'>
+            <Link href='/shop'>Shop</Link>
           </li>
         </ul>
 
